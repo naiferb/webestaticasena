@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos del Desarrollo Web - SENA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección principal (hero) -->
+    <div class="hero">
+        <h1>Fundamentos del Desarrollo Web</h1>
+        <p>Técnico en Sistemas - Articulación con la media - SENA</p>
+    </div>
+
+    <!-- Contenedor de tarjetas tecnológicas -->
+    <div class="container">
+        <div class="cards">
+            <!-- Tarjeta HTML -->
+            <div class="card" onclick="showInfo('html')">
+                <h2>HTML</h2>
+                <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Define la estructura y el contenido de tu sitio web, como:</p>
+                <ul>
+                    <li>Textos</li>
+                    <li>Imágenes</li>
+                    <li>Enlaces</li>
+                    <li>Formularios</li>
+                </ul>
+            </div>
+
+            <!-- Tarjeta CSS -->
+            <div class="card" onclick="showInfo('css')">
+                <h2>CSS</h2>
+                <p>CSS (Cascading Style Sheets) es el lenguaje que da estilo y diseño a tu página web. Controla:</p>
+                <ul>
+                    <li>Colores</li>
+                    <li>Diseño</li>
+                    <li>Animaciones</li>
+                    <li>Responsividad</li>
+                </ul>
+            </div>
+
+            <!-- Tarjeta JavaScript -->
+            <div class="card" onclick="showInfo('js')">
+                <h2>JavaScript</h2>
+                <p>JavaScript es el lenguaje de programación que hace tu sitio web interactivo. Permite:</p>
+                <ul>
+                    <li>Interactividad</li>
+                    <li>Animaciones</li>
+                    <li>Manipulación del DOM</li>
+                    <li>Peticiones a servidores</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de sitios web estáticos -->
+    <div class="static-sites">
+        <div class="container">
+            <h2>Páginas Web Estáticas</h2>
+            <p>Las páginas web estáticas son sitios web que muestran el mismo contenido a todos los usuarios. Son ideales para:</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Rendimiento</h3>
+                    <p>Cargan más rápido al no requerir procesamiento del servidor.</p>
+                </div>
+                <div class="feature">
+                    <h3>Seguridad</h3>
+                    <p>Menor superficie de ataque al no tener base de datos.</p>
+                </div>
+                <div class="feature">
+                    <h3>Costos</h3>
+                    <p>Más económicas de alojar y mantener.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nueva sección de despliegue -->
+    <div class="deployment">
+        <div class="container">
+            <h2>¿Cómo desplegar tu sitio web?</h2>
+            <p>El proceso de despliegue es fundamental para hacer tu sitio web accesible en Internet. Aquí te mostramos los pasos:</p>
+            
+            <div class="deployment-steps">
+                <div class="step">
+                    <h3>1. Preparar archivos</h3>
+                    <p>Organiza tus archivos HTML, CSS y JavaScript en una estructura clara de carpetas.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Elegir hosting</h3>
+                    <p>Algunas opciones gratuitas populares son:</p>
+                    <ul>
+                        <li>GitHub Pages</li>
+                        <li>Netlify</li>
+                        <li>Vercel</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <h3>3. Subir archivos</h3>
+                    <p>Sube tus archivos al servicio de hosting elegido siguiendo sus instrucciones específicas.</p>
+                </div>
+                <div class="step">
+                    <h3>4. Configurar dominio</h3>
+                    <p>Opcionalmente, puedes configurar un dominio personalizado para tu sitio web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>Creado con ❤️ por aprendices del Técnico en sistemas. Articulación con la media </p>
+    </footer>
+
+    <!-- Scripts de JavaScript -->
+     <script src="script.js"></script>
+</body>
+</html>
